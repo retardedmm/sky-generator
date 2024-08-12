@@ -9,7 +9,14 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
-        <!-- https : / / doc.hutool.cn/ -->
+        <!--https://freemarker.apache.org/index.html-->
+        <!--中文文档,非官方中文,对没过cet6的人挺好使的-->
+        <!--http://freemarker.foofun.cn/-->
+        <dependency>
+            <groupId>org.freemarker</groupId>
+            <artifactId>freemarker</artifactId>
+            <version>2.3.32</version>
+        </dependency>
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
